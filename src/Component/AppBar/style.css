@@ -1,0 +1,19 @@
+.appbar{
+    width: 100vw;
+    background-color: #FFBC00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons {
+    color: white;
+    margin:  1rem;
+    cursor: pointer;
+}
+
+.search {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3rem;
+}

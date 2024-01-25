@@ -1,0 +1,48 @@
+ .card-container {
+    width: 80vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin: auto;
+    gap: 10px;
+}
+.card-content {
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+    padding: 1rem;
+
+}
+.card-content h4{
+    position: relative;
+    text-align: start;
+    top: -20px;
+}
+.card-container p{
+    position: relative;
+    top: -20px;
+    font-weight: 400;
+    text-align: start;
+} 
+.card-icons {
+    font-size: medium;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 3px;
+}
+.edit-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.edit-input input{
+    padding: 8px;
+    border: none;
+    outline: none;
+}
+  
